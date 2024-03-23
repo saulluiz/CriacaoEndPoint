@@ -4,18 +4,10 @@ using System.Threading.Tasks;
 using System.Web;
 using Microsoft.AspNetCore.Http;
 
-public class MiddlewareConsultaPop
+public static class EndpointConsultaPop
 {
-    private readonly RequestDelegate next; //guarda a referencia do proximo middleware
-    public MiddlewareConsultaPop(RequestDelegate nextMiddleware)
-    {
-        next = nextMiddleware;
-    }
-    public MiddlewareConsultaPop()
-    {
-
-    }
-    public async Task Invoke(HttpContext context)
+   
+    public static  async Task Endpoint(HttpContext context)
     {
         string localidade = HttpUtility.UrlDecode(context.Request.RouteValues["local"] as string);
 
@@ -29,9 +21,5 @@ public class MiddlewareConsultaPop
         await context.Response.WriteAsync(html.ToString());
 
 
-         if (next != null)
-        {
-            await next(context);
-        }
     }
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GeeYDrMorBWb3s3gK/UKsHM6kM0c31TLfgnCaHTR1y98R5/cdBviEdOoPj1BTY7LQ4qaNEoB080py7wUPvho/A==",
+  "dgSpecHash": "y3AfaypEOp7g7K6L7BCYHdWuvRSNsRcsFQIr76MTfPU4s/B5hh/WJFFGHOiMuFs7v7HvHtqOdJgkUZuEs98cIQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\saulo\\OneDrive\\Área de Trabalho\\DEV\\Asp.net\\CriacaoEndPoint\\CriacaoEndPoint.csproj",
+  "projectFilePath": "c:\\Users\\saulo\\OneDrive\\Área de Trabalho\\DEV\\Asp.net\\CriacaoEndPoint\\CriacaoEndPoint.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\saulo\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
   ],

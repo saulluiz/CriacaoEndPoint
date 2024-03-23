@@ -15,16 +15,18 @@ public class MiddlewareConsultaCep
         next = nextMiddleware;
     }
     public MiddlewareConsultaCep(){
-        
+
     }
     public async Task Invoke(HttpContext context)
     {
 
-        string[] segmentos = context.Request.Path.ToString().Split("/", System.StringSplitOptions.RemoveEmptyEntries);
-        if (segmentos.Length == 2 && segmentos[0] == "cep")
-        {
 
-            var cep = segmentos[1];
+                string cep = context.Request.RouteValues["cep"] as string;
+                Console.WriteLine(cep);
+
+       
+            
+          
             var objetoCep = await ConsultaCep(cep);
             context.Response.ContentType = "text/html; charset=utf-8";
             
@@ -38,8 +40,8 @@ public class MiddlewareConsultaCep
                
             await context.Response.WriteAsync(html.ToString());
 
-        }
-        else if (next != null)
+        
+         if (next != null)
         {
             //Quando o endpoint nao leva cumpre o caminho cep e valor, vamos ao proximo middleware. No caso, o proximo confere
             //se o endp[oint tem o caminho especifico e, se nao tiver, vai ao proximo middleware tmb

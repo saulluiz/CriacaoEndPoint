@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\saulo\\OneDrive\\Área de Trabalho\\DEV\\Asp.net\\CriacaoEndPoint\\CriacaoEndPoint.csproj": {}
+    "c:\\Users\\saulo\\OneDrive\\Área de Trabalho\\DEV\\Asp.net\\CriacaoEndPoint\\CriacaoEndPoint.csproj": {}
   },
   "projects": {
-    "C:\\Users\\saulo\\OneDrive\\Área de Trabalho\\DEV\\Asp.net\\CriacaoEndPoint\\CriacaoEndPoint.csproj": {
+    "c:\\Users\\saulo\\OneDrive\\Área de Trabalho\\DEV\\Asp.net\\CriacaoEndPoint\\CriacaoEndPoint.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\saulo\\OneDrive\\Área de Trabalho\\DEV\\Asp.net\\CriacaoEndPoint\\CriacaoEndPoint.csproj",
+        "projectUniqueName": "c:\\Users\\saulo\\OneDrive\\Área de Trabalho\\DEV\\Asp.net\\CriacaoEndPoint\\CriacaoEndPoint.csproj",
         "projectName": "CriacaoEndPoint",
-        "projectPath": "C:\\Users\\saulo\\OneDrive\\Área de Trabalho\\DEV\\Asp.net\\CriacaoEndPoint\\CriacaoEndPoint.csproj",
+        "projectPath": "c:\\Users\\saulo\\OneDrive\\Área de Trabalho\\DEV\\Asp.net\\CriacaoEndPoint\\CriacaoEndPoint.csproj",
         "packagesPath": "C:\\Users\\saulo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\saulo\\OneDrive\\Área de Trabalho\\DEV\\Asp.net\\CriacaoEndPoint\\obj\\",
+        "outputPath": "c:\\Users\\saulo\\OneDrive\\Área de Trabalho\\DEV\\Asp.net\\CriacaoEndPoint\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
