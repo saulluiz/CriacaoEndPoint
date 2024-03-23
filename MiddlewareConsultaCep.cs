@@ -14,6 +14,9 @@ public class MiddlewareConsultaCep
     {
         next = nextMiddleware;
     }
+    public MiddlewareConsultaCep(){
+        
+    }
     public async Task Invoke(HttpContext context)
     {
 

@@ -10,6 +10,9 @@ public class MiddlewareConsultaPop
     public MiddlewareConsultaPop(RequestDelegate nextMiddleware){
         next=nextMiddleware;
     }
+    public MiddlewareConsultaPop(){
+        
+    }
     public async Task Invoke(HttpContext context){
         
         string[] segmentos =context.Request.Path.ToString().Split("/", System.StringSplitOptions.RemoveEmptyEntries);
